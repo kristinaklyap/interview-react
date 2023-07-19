@@ -12,7 +12,7 @@ export default function App() {
             <img
               alt="app-logo"
               className="App-logo"
-              src="https://www.mersive.com/wp-content/themes/mersive/images/mersive-logo.svg"
+              src="https://www.mersive.com/wp-content/uploads/2022/07/mersive-logo-3.svg"
             />
             <h2>Welcome! Thanks for interviewing with Mersive Technologies!</h2>
             <p>
