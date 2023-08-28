@@ -1,1 +1,37 @@
-{}
+[
+  {
+    "id": 0,
+    "name": "root",
+    "items": [
+      {
+        "id": 1,
+        "name": "ant"
+      },
+      {
+        "id": 2,
+        "name": "bear",
+        "items": [
+          {
+            "id": 3,
+            "name": "cat"
+          },
+          {
+            "id": 4,
+            "name": "dog",
+            "items": [
+              {
+                "id": 5,
+                "name": "elephant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "frog"
+      }
+    ]
+  }
+
+]
