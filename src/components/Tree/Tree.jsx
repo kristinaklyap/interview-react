@@ -25,8 +25,7 @@ const Tree = () => {
                 <hr />
                 <div className={`${classes.tree} ${classes.tree_2}`}>
                     <ul>
-                        <li>root</li>
-                        <li>
+                        <li>root
                             <ul>
                                 <li>ant</li>
                                 <li>bear</li>
@@ -47,7 +46,34 @@ const Tree = () => {
                     </ul>
                 </div>
             </section>
-
+            <section>
+                <hr />
+                <h3> Tree styled with css: BONUS#2  </h3>
+                <hr />
+                <div className={`${classes.tree} ${classes.tree_3}`}>
+                    <ol>
+                        <li>
+                            root
+                            <ol>
+                                <li>ant</li>
+                                <li>
+                                    bear
+                                    <ol>
+                                        <li>cat</li>
+                                        <li>
+                                            dog
+                                            <ol>
+                                                <li>elephant</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>frog</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </section>
         </>
 
     )
