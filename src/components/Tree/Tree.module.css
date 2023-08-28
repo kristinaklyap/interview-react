@@ -14,3 +14,15 @@
 .tree_2 > ul {
     padding-left: 0;
 }
+
+.tree_3 ol {
+    list-style: none;
+    counter-reset: item;
+}
+.tree_3 > ol {
+    padding-left: 0;
+}
+.tree_3 ol li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
