@@ -1,0 +1,13 @@
+.tree_node {
+    position: relative;
+    left: 30px;
+}
+.tree_node input {
+    display: block;
+    min-width: 250px;
+}
+.tree_node button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
